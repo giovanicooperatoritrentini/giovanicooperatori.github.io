@@ -1,45 +1,48 @@
-name = "Jake Gyllenhaal"
-description = "Accomplished actor, captivating with versatility and charisma."
-keywords = "Jake Gyllenhaal, actor, filmography, awards, versatile performances, Hollywood"
-image = "jake.webp"
-theme = "dark"
-primary_color = "#d81b60"
+name = "Giovani Cooperatori Trentini"
+description = "Associazione giovanile del movimento cooperativo trentino"
+keywords = "giovani, cooperatori, trentini, cooperazione, trentino"
+image = "logo_color_trans_hiq.png"
+theme = "light"
+primary_color = "#043c49"
 text_align = "center"
-gtag_id = "G-33WB8LVHR6"
-base_url = "https://thevahidal.github.io/jake"
+gtag_id = ""
+base_url = "https://giovanicooperatoritrentini.github.io/"
 
 [[sections]]
-title = "Movies"
-description = "Here are some of my movies"
+title = "Collegamenti"
+description = ""
 direction = "column"
 item_style = "outline"
 [[sections.items]]
-title = "Nightcrawler"
-description = "A mesmerizing thriller delving into the dark world of crime journalism"
+title = "Assemblea 2024"
+description = "Iscriviti alla nostra assemblea / 6 aprile 2024"
 url = "https://www.imdb.com/title/tt2872718/"
 [[sections.items]]
-title = "Brokeback Mountain"
+title = "Diventa socio"
+description = "Diventa socio dei Giovani Cooperatori Trentini"
+url = "https://www.imdb.com/title/tt2872718/"
+[[sections.items]]
+title = "Sito internet"
 description = "A groundbreaking romantic drama challenging societal expectations"
 url = "https://www.imdb.com/title/tt0388795/"
 [[sections.items]]
-title = "Prisoners"
-description = "A gripping thriller entangling a detective in a web of secrets during a kidnapping investigation"
+title = "Statuto"
+description = "Statuto dell'associazione - aggiornamento 2023"
+url = "https://www.imdb.com/title/tt1392214/"
+[[sections.items]]
+title = "Bilanci"
+description = "Consulta i bilanci d'esercizio"
 url = "https://www.imdb.com/title/tt1392214/"
 
 [[sections]]
 title = "Links"
-description = "Look for me on these websites"
+description = "Seguici sui nostri social"
 direction = "row"
 item_style = "filled"
 [[sections.items]]
 title = "Instagram"
-url = "https://www.instagram.com/jakegyllenhaal"
+url = "https://www.instagram.com/giovanicooperatoritrentini"
 [[sections.items]]
-title = "IMDb"
-url = "https://www.imdb.com/name/nm0350453/"
-[[sections.items]]
-title = "Wikipedia"
-url = "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
-[[sections.items]]
-title = "Rotten Tomatoes"
-url = "https://www.rottentomatoes.com/celebrity/jake_gyllenhaal"
+title = "Email"
+url = "mailto:giovanicooperatoritrentini@gmail.com"
+
