@@ -54,7 +54,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background: var(--background_color) var(--background_image) repeat center;
-  background-size: 6rem;
+  background-size: 48px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -102,11 +102,13 @@ body {
 .header_text h1 {
   color: var(--title_color);
   font-size: 2em;
+  font-weight: bold;
 }
 
 .header_text h2 {
   color: var(--description_color);
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 /* Social Media Icons Codes */
