@@ -9,7 +9,7 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #fff;
-  --background_image: url("../img/wallpaper.jpg");
+  /* --background_image: url("../img/wallpaper.jpg"); */
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #fff;
@@ -21,23 +21,23 @@
 
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #000;
-  --description_color: #094756;
+  --description_color: #46a2b9;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #000;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
-  --menu_background_color: #094756;
+  --menu_background_color: #46a2b9;
   --menu_text_color: #fff;
   --menu_active_text_color: #a2d9f7;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #094756;
+  --button_background_color: #46a2b9;
   --button_text_color: #fff;
   --button_text_hover_color: #a2d9f7;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
-  --textarea_background_color: #094756;
+  --textarea_background_color: #46a2b9;
   --textarea_text_color: #fff;
   --textarea_link_text_color: #a2d9f7;
 
