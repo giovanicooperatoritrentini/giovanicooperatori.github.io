@@ -1,15 +1,21 @@
-/* Menu Active Codes */
+const sections = [...document.querySelectorAll('main section')];
+const navLinks = document.querySelectorAll('nav a[href^="#"]');
 
-let targets = document.querySelectorAll('[data-target]')
-targets.forEach(element => {
-  element.addEventListener('click', () => {
-    var target = document.querySelector(element.dataset.target)
-    targets.forEach(element2 => {
-      var target2 = document.querySelector(element2.dataset.target)
-      element2.style.color = 'var(--menu_text_color)'
-      target2.style.display = 'none'
-    });
-    element.style.color = 'var(--menu_active_text_color)'
-    target.style.display= 'flex'
-  })
-})
+function setActive(id) {
+  navLinks.forEach(link =>
+    link.classList.toggle('active', link.getAttribute('href') === `#${id}`)
+  );
+}
+
+if (sections[0]) setActive(sections[0].id);
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) setActive(entry.target.id);
+  });
+}, {
+  rootMargin: '-52px 0px -80% 0px',
+  threshold: 0
+});
+
+sections.forEach(s => observer.observe(s));

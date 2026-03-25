@@ -1,281 +1,130 @@
-<!--
------------------
-https://github.com/ardacarofficial/links-website is open source project.
------------------
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giovani Cooperatori Trentini</title>
   <meta name="description" content="Formazione cooperativa, civile e culturale">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+  <nav>
+    <span class="nav-brand">Giovani Cooperatori Trentini</span>
+    <ul>
+      <li><a href="#attivita">Attività</a></li>
+      <li><a href="#chi-siamo">Chi Siamo</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <!-- Logo, Title and Description Codes Start -->
-    <div class="header_img flex_column_center">
-      <img src="img/logo.png" alt="Giovani Cooperatori Trentini" />
+    <div class="hero-logo">
+      <img src="img/logo.png" alt="Giovani Cooperatori Trentini" onerror="this.style.display='none'">
     </div>
-    <div class="header_text flex_column_center">
-      <h1 class="header_h_item">Giovani Cooperatori Trentini</h1>
-      <h2 class="header_h_item">Formazione cooperativa, civile e culturale</h2>
+    <h1>Giovani Cooperatori Trentini</h1>
+    <p class="hero-tagline">Formazione cooperativa, civile e culturale</p>
+    <div class="hero-socials">
+      <a href="https://www.instagram.com/giovanicooperatoritrentini" target="_blank" rel="noopener noreferrer"
+        aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path
+            d="M21.938,7.71a7.329,7.329,0,0,0-.456-2.394,4.615,4.615,0,0,0-1.1-1.694,4.61,4.61,0,0,0-1.7-1.1,7.318,7.318,0,0,0-2.393-.456C15.185,2.012,14.817,2,12,2s-3.185.012-4.29.062a7.329,7.329,0,0,0-2.394.456,4.615,4.615,0,0,0-1.694,1.1,4.61,4.61,0,0,0-1.1,1.7A7.318,7.318,0,0,0,2.062,7.71C2.012,8.814,2,9.182,2,12s.012,3.186.062,4.29a7.329,7.329,0,0,0,.456,2.394,4.615,4.615,0,0,0,1.1,1.694,4.61,4.61,0,0,0,1.7,1.1,7.318,7.318,0,0,0,2.393.456c1.1.05,1.472.062,4.29.062s3.186-.012,4.29-.062a7.329,7.329,0,0,0,2.394-.456,4.9,4.9,0,0,0,2.8-2.8,7.318,7.318,0,0,0,.456-2.393c.05-1.1.062-1.472.062-4.29S21.988,8.814,21.938,7.71Zm-1,8.534a6.351,6.351,0,0,1-.388,2.077,3.9,3.9,0,0,1-2.228,2.229,6.363,6.363,0,0,1-2.078.388C15.159,20.988,14.8,21,12,21s-3.159-.012-4.244-.062a6.351,6.351,0,0,1-2.077-.388,3.627,3.627,0,0,1-1.35-.879,3.631,3.631,0,0,1-.879-1.349,6.363,6.363,0,0,1-.388-2.078C3.012,15.159,3,14.8,3,12s.012-3.159.062-4.244A6.351,6.351,0,0,1,3.45,5.679a3.627,3.627,0,0,1,.879-1.35A3.631,3.631,0,0,1,5.678,3.45a6.363,6.363,0,0,1,2.078-.388C8.842,3.012,9.205,3,12,3s3.158.012,4.244.062a6.351,6.351,0,0,1,2.077.388,3.627,3.627,0,0,1,1.35.879,3.631,3.631,0,0,1,.879,1.349,6.363,6.363,0,0,1,.388,2.078C20.988,8.841,21,9.2,21,12S20.988,15.159,20.938,16.244Z" />
+          <path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z" />
+          <path
+            d="M12,7.073A4.927,4.927,0,1,0,16.927,12,4.932,4.932,0,0,0,12,7.073Zm0,8.854A3.927,3.927,0,1,1,15.927,12,3.932,3.932,0,0,1,12,15.927Z" />
+        </svg>
+      </a>
+      <a href="https://www.facebook.com/giovanicooperatoritrentini" target="_blank" rel="noopener noreferrer"
+        aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path
+            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+        </svg>
+      </a>
     </div>
-    <!-- Logo, Title and Description Codes End -->
-
-    <!-- Social Media Icons Codes Start -->
-    <div class="header_svg_list flex_row_center">
-      <!-- Icon 1 Codes -->
-      <!-- <div class="header_svg_item">
-        <a href="#link" target="_blank" rel="nofollow">
-          <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-            <path
-              d="M18,10.561a.494.494,0,0,1-.245-.065,15.2,15.2,0,0,0-10.95-1.55.5.5,0,0,1-.232-.973A16.2,16.2,0,0,1,18.25,9.626a.5.5,0,0,1-.247.935Z">
-            </path>
-            <path
-              d="M16.646,13.632a.5.5,0,0,1-.249-.066,12.459,12.459,0,0,0-9.121-1.292.5.5,0,1,1-.237-.971A13.458,13.458,0,0,1,16.9,12.7a.5.5,0,0,1-.25.933Z">
-            </path>
-            <path
-              d="M15.312,16.583a.5.5,0,0,1-.251-.068,9.777,9.777,0,0,0-7.295-1.033.5.5,0,0,1-.245-.97,10.768,10.768,0,0,1,8.043,1.139.5.5,0,0,1-.252.932Z">
-            </path>
-            <path
-              d="M12,23A11,11,0,1,1,23,12,11.013,11.013,0,0,1,12,23ZM12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Z">
-            </path>
-          </svg>
-        </a>
-      </div> -->
-      <!-- Icon 2 Codes -->
-      <!-- <div class="header_svg_item">
-        <a href="#link" target="_blank" rel="nofollow">
-          <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-            <path
-              d="m2.538 3 7.425 9.928L2 21h1.5l7.033-7.067L16 21h5.232l-7.662-9.995 6.955-7.514h-1.5L13 10 7.77 3H2.538Zm1.994 1h2.645l12.087 16h-2.525L4.532 4Z">
-            </path>
-          </svg>
-        </a>
-      </div> -->
-      <!-- Icon 3 Codes -->
-      <div class="header_svg_item">
-        <a href="https://www.instagram.com/giovanicooperatoritrentini/" target="_blank" rel="nofollow">
-          <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-            <path
-              d="M21.938,7.71a7.329,7.329,0,0,0-.456-2.394,4.615,4.615,0,0,0-1.1-1.694,4.61,4.61,0,0,0-1.7-1.1,7.318,7.318,0,0,0-2.393-.456C15.185,2.012,14.817,2,12,2s-3.185.012-4.29.062a7.329,7.329,0,0,0-2.394.456,4.615,4.615,0,0,0-1.694,1.1,4.61,4.61,0,0,0-1.1,1.7A7.318,7.318,0,0,0,2.062,7.71C2.012,8.814,2,9.182,2,12s.012,3.186.062,4.29a7.329,7.329,0,0,0,.456,2.394,4.615,4.615,0,0,0,1.1,1.694,4.61,4.61,0,0,0,1.7,1.1,7.318,7.318,0,0,0,2.393.456c1.1.05,1.472.062,4.29.062s3.186-.012,4.29-.062a7.329,7.329,0,0,0,2.394-.456,4.9,4.9,0,0,0,2.8-2.8,7.318,7.318,0,0,0,.456-2.393c.05-1.1.062-1.472.062-4.29S21.988,8.814,21.938,7.71Zm-1,8.534a6.351,6.351,0,0,1-.388,2.077,3.9,3.9,0,0,1-2.228,2.229,6.363,6.363,0,0,1-2.078.388C15.159,20.988,14.8,21,12,21s-3.159-.012-4.244-.062a6.351,6.351,0,0,1-2.077-.388,3.627,3.627,0,0,1-1.35-.879,3.631,3.631,0,0,1-.879-1.349,6.363,6.363,0,0,1-.388-2.078C3.012,15.159,3,14.8,3,12s.012-3.159.062-4.244A6.351,6.351,0,0,1,3.45,5.679a3.627,3.627,0,0,1,.879-1.35A3.631,3.631,0,0,1,5.678,3.45a6.363,6.363,0,0,1,2.078-.388C8.842,3.012,9.205,3,12,3s3.158.012,4.244.062a6.351,6.351,0,0,1,2.077.388,3.627,3.627,0,0,1,1.35.879,3.631,3.631,0,0,1,.879,1.349,6.363,6.363,0,0,1,.388,2.078C20.988,8.841,21,9.2,21,12S20.988,15.159,20.938,16.244Z">
-            </path>
-            <path d="M17.581,5.467a.953.953,0,1,0,.952.952A.954.954,0,0,0,17.581,5.467Z"></path>
-            <path
-              d="M12,7.073A4.927,4.927,0,1,0,16.927,12,4.932,4.932,0,0,0,12,7.073Zm0,8.854A3.927,3.927,0,1,1,15.927,12,3.932,3.932,0,0,1,12,15.927Z">
-            </path>
-          </svg>
-        </a>
-      </div>
-      <div class="header_svg_item">
-        <a href="https://www.facebook.com/giovanicooperatoritrentini" target="_blank" rel="nofollow">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="34px" height="34px">
-            <path
-              d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z" />
-          </svg>
-        </a>
-      </div>
-      <!-- Icon 4 Codes -->
-      <!-- <div class="header_svg_item">
-        <a href="#link" target="_blank" rel="nofollow">
-          <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-            <path
-              d="M7.285,23.5a.493.493,0,0,1-.191-.038A.5.5,0,0,1,6.785,23V19.571H2.572a.5.5,0,0,1-.5-.5V4.929a.5.5,0,0,1,.146-.354L6.147.646A.5.5,0,0,1,6.5.5H21.429a.5.5,0,0,1,.5.5V12a.5.5,0,0,1-.147.354L14.71,19.425a.5.5,0,0,1-.353.146H11.421L7.639,23.354A.5.5,0,0,1,7.285,23.5ZM3.072,18.571H7.285a.5.5,0,0,1,.5.5v2.722l3.076-3.075a.5.5,0,0,1,.353-.147H14.15l6.779-6.778V1.5H6.707L3.072,5.136Z">
-            </path>
-            <path
-              d="M10.822,17.607a.494.494,0,0,1-.192-.038.5.5,0,0,1-.308-.462v-2.25H7.285a.5.5,0,0,1-.5-.5V3.571a.5.5,0,0,1,.5-.5H18.857a.5.5,0,0,1,.5.5v7.643a.5.5,0,0,1-.147.354L16.068,14.71a.5.5,0,0,1-.354.147H13.779l-2.6,2.6A.5.5,0,0,1,10.822,17.607Zm-3.037-3.75h3.037a.5.5,0,0,1,.5.5V15.9l1.9-1.9a.5.5,0,0,1,.354-.146h1.935l2.85-2.85V4.071H7.785Z">
-            </path>
-            <path d="M15.857,10.386a.5.5,0,0,1-.5-.5V6.072a.5.5,0,1,1,1,0V9.886A.5.5,0,0,1,15.857,10.386Z"></path>
-            <path d="M12.357,10.386a.5.5,0,0,1-.5-.5V6.072a.5.5,0,1,1,1,0V9.886A.5.5,0,0,1,12.357,10.386Z"></path>
-          </svg>
-        </a>
-      </div> -->
-    </div>
-    <!-- Social Media Icons Codes End -->
-
-    <!-- Menu Codes Start -->
-    <nav>
-      <ul class="header_nav_menu_list flex_no_wrap_row_center">
-        <li data-target="#main_section_container_1" id="header_nav_menu_item_1" class="header_nav_menu_item" href="">
-          Attività</li>
-        <li data-target="#main_section_container_2" id="header_nav_menu_item_2" class="header_nav_menu_item" href="">
-          Su di noi</li>
-        <li data-target="#main_section_container_3" id="header_nav_menu_item_3" class="header_nav_menu_item" href="">
-          Contatti</li>
-      </ul>
-    </nav>
-    <!-- Menu Codes End -->
-
   </header>
+
   <main>
-    <!-- Menu Container 1 Codes Start -->
-    <section id="main_section_container_1" class="flex_column_center">
-      <!-- Menu Text Item -->
-      <div class="main_text_item" style="background-color: white; color:black;">
-        <div>
-          <p>12 Aprile 2025 - Assemblea Ordinaria</p>
-          <p style="font-weight: bold;">Voci che si intrecciano: prospettive giovani per una storia condivisa</p>
-          <p>Un’occasione per approfondire temi di attualità politico-economica, educazione finanziaria e data journalism con <b>Economika</b>.
-</p>
-        </div>
-      </div>
-      <!-- Menu Small Item -->
-      <!-- <div class="main_small_button_list">
-        <a class="main_small_a_item" href="attachments/2024-04-06_programmaeventosoci.pdf" target="_blank"
-          rel="nofollow">
-          <button class="main_small_button_item">Programma</button>
-        </a>
-        <a class="main_small_a_item" href="attachments/2024-04-06_locandina.pdf" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Locandina</button>
-        </a>
-      </div> -->
-      <!-- Menu Small Item -->
-      <!-- <div class="main_text_item" style="background-color: white; color:black;">
-        <div>
-          <p>Per i soci o per chi vuole diventarlo:</p>
-        </div>
-      </div> -->
-      
-      <!-- <div class="main_text_item" style="background-color: white; color:black;">
-        <div>
-          <p>Per tutti</p>
-        </div>
-      </div>
-      <a class="main_a_item" href="https://app.tickettailor.com/events/cooperazionetrentina/1177821#" target="_blank"
-        rel="nofollow">
-        <button class="main_button_item">Iscriviti all'evento</button>
-      </a> -->
-      <!-- <div class="main_text_item" style="background-color: white; color:black;">
-        <div>
-          <p style="font-weight: bold;">
-              Per cosa siamo disposti a lavorare oggi?
-          </p>
-          <p style="font-style: italic;">L'intervento della nostra associazione sarà dalle ore 10:00 alle 10:50.<br/> La partecipazione è libera ed aperta a tutti.
-          </p>
-        </div>
-      </div> -->
-      <!-- Menu Item -->
-       <a class="main_a_item" href="attachments/locandina_assemblea2025.jpeg" target="_blank" rel="nofollow">
-        <button class="main_button_item">Locandina</button>
-      </a>
-      <a class="main_a_item" href="https://bit.ly/agct2025" target="_blank"
-        rel="nofollow">
-        <button class="main_button_item">Iscriviti all'evento</button>
-      </a>
-      <a class="main_a_item" href="mailto:associazione.giovani@ftcoop.it" target="_blank" rel="nofollow">
-        <button class="main_button_item">Contattaci per ulteriori informazioni</button>
-      </a>
 
-    </section>
-    <!-- Menu Container 1 Codes End -->
+    <section id="attivita">
+      <div class="container">
+        <div class="section-label">Attività</div>
+        <h2 class="section-title">Prossimi eventi</h2>
+        <p class="section-body">Partecipa ai nostri eventi e iniziative per giovani cooperatori del Trentino.</p>
 
-    <!-- Menu Container 2 Codes Start -->
-    <section id="main_section_container_2" class="flex_column_center">
-      <!-- Menu Text Item -->
-      <!-- <div class="main_text_item">
-        <p>Sito web istituzionale</p>
-      </div> -->
-      <a class="main_a_item" href="https://www.cooperazionetrentina.it/it/chi-siamo/associazioni/giovani-cooperatori"
-        target="_blank" rel="nofollow">
-        <button class="main_button_item">Sito web istituzionale</button>
-      </a>
-      <!-- Menu Small Item -->
-      <!-- <div class="main_small_button_list">
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 2 Small Item</button>
-        </a>
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 2 Small Item</button>
-        </a>
-      </div> -->
-      <!-- Menu Small Item -->
-      <!-- <div class="main_small_button_list">
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 2 Small Item</button>
-        </a>
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 2 Small Item</button>
-        </a>
-      </div> -->
-      <!-- Menu Item -->
-      <a class="main_a_item" href="https://www.cooperazionetrentina.it/media/ob3c3xae/statuto-agct.pdf" target="_blank"
-        rel="nofollow">
-        <button class="main_button_item">Statuto</button>
-      </a>
-      <!-- Menu Item -->
-      <a class="main_a_item" href="attachments/modulo_iscrizione_pf.pdf" target="_blank" rel="nofollow">
-        <button class="main_button_item">Aderisci all'associazione</button>
-      </a>
-      <!-- Menu Item -->
-      <a class="main_a_item" href="attachments/modulo_iscrizione_enti.pdf" target="_blank" rel="nofollow">
-        <button class="main_button_item">Sei un ente? Aderisci compilando questo modulo</button>
-      </a>
-      <!-- <a class="main_a_item" href="#" target="_blank" rel="nofollow">
-        <button class="main_button_item">Bilanci d'esercizio</button>
-      </a> -->
+        <div class="event-card">
+          <img src="attachments/locandina_assemblea2026.jpg" alt="Locandina Assemblea Ordinaria e Straordinaria 2026" class="event-poster">
+          <div class="event-date">18 Aprile 2026</div>
+          <div class="event-title">Assemblea Ordinaria e Straordinaria</div>
+          <p class="event-desc">A seguire Lectio Magistralis di Alberto Ianes: Da follower a protagonisti - diventare
+            cooperatori e cooperatrici consapevoli</p>
+          <a class="btn btn-primary" href="https://forms.office.com/e/fD33wT55vj" target="_blank"
+            rel="noopener noreferrer">Iscriviti all'evento →</a>
+        </div>
+      </div>
     </section>
-    <!-- Menu Container 2 Codes End -->
 
-    <!-- Menu Container 3 Codes Start -->
-    <section id="main_section_container_3" class="flex_column_center">
-      <!-- Menu Text Item -->
-      <!-- <div class="main_text_item">
-        <p>Puoi scriverci un’email al seguente indirizzo:
-          associazione.giovani@ftcoop.it
-          Oppure chiamarci allo 0461 898 601</p>
+    <section id="chi-siamo">
+      <div class="container">
+        <div class="section-label">Chi Siamo</div>
+        <h2 class="section-title">La nostra associazione</h2>
+        <p class="section-body">Giovani Cooperatori Trentini è un'associazione che promuove i valori della cooperazione
+          tra le giovani generazioni del Trentino. Scopri il nostro statuto o diventa socio.</p>
+
+        <div class="link-list">
+          <a class="link-item" href="https://www.cooperazionetrentina.it/media/ob3c3xae/statuto-agct.pdf"
+            target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">📄</div>
+            Statuto dell'associazione
+          </a>
+          <a class="link-item" href="attachments/modulo_iscrizione_pf.pdf" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">✍️</div>
+            Modulo iscrizione — Persona fisica
+          </a>
+          <a class="link-item" href="attachments/modulo_iscrizione_enti.pdf" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">🏢</div>
+            Modulo iscrizione — Ente
+          </a>
+        </div>
       </div>
-      <div class="main_text_item">
-        <p>Per quanto riguarda la progettazione e il coordinamento delle iniziative puoi contattare:
-          Domenica Moscato
-          Tel. 0461 898 601</p>
-      </div> -->
-      <!-- Menu Small Item -->
-      <div class="main_small_button_list">
-        <a class="main_small_a_item" href="mailto:associazione.giovani@ftcoop.it" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Scrivici una email</button>
-        </a>
-        <a class="main_small_a_item" href="tel:+390461898601" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Chiamaci</button>
-        </a>
-      </div>
-      <!-- Menu Small Item -->
-      <!-- <div class="main_small_button_list">
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 3 Small Item</button>
-        </a>
-        <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-          <button class="main_small_button_item">Menu 3 Small Item</button>
-        </a>
-      </div> -->
-      <!-- Menu Item -->
-      <!-- <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
-        <button class="main_button_item">Menu 3 Item</button>
-      </a> -->
-      <!-- Menu Item -->
-      <!-- <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
-        <button class="main_button_item">Menu 3 Item</button>
-      </a> -->
     </section>
-    <!-- Menu Container 3 Codes End -->
+
+    <section id="contatti">
+      <div class="container">
+        <div class="section-label">Contatti</div>
+        <h2 class="section-title">Scrivici</h2>
+        <p class="section-body">Siamo raggiungibili via email o telefono. Puoi anche seguirci sui social.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-type">Email</div>
+            <a class="contact-value" href="mailto:associazione.giovani@ftcoop.it">associazione.giovani@ftcoop.it</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-type">Telefono</div>
+            <a class="contact-value" href="tel:+390461898601">+39 0461 898601</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+
   <footer>
-    <!-- Footer Codes Start -->
-    <div class="footer_div_item flex_row_center">
-      <a class="footer_a_item" href="mailto:associazione.giovani@ftcoop.it">Associazione Giovani Cooperatori
-        Trentini</a>&nbsp;|&nbsp;<a class="footer_a_item" href="tel:+390461898601">Tel. 0461 898601</a>&nbsp;|&nbsp;C.F.
-      96013010226
-    </div>
+    <p>
+      <a href="mailto:associazione.giovani@ftcoop.it">Associazione Giovani Cooperatori Trentini</a>
+      &nbsp;|&nbsp;
+      <a href="tel:+390461898601">Tel. 0461 898601</a>
+      &nbsp;|&nbsp;
+      C.F. 96013010226
+    </p>
   </footer>
-  <!-- Footer Codes End -->
+
   <script src="js/main.js"></script>
   <script data-goatcounter="https://agct.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
