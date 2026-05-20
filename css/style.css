@@ -92,23 +92,22 @@ header {
 }
 
 .hero-logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  height: 96px;
+  padding: 14px 24px;
+  border-radius: 18px;
   background: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
   flex-shrink: 0;
 }
 
 .hero-logo img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 header h1 {
@@ -248,8 +247,11 @@ section + section {
 
 .event-poster {
   width: 100%;
+  max-height: 420px;
   border-radius: 8px;
   display: block;
+  object-fit: cover;
+  object-position: top;
 }
 
 .event-date {
@@ -277,6 +279,36 @@ section + section {
   color: var(--color-text-muted);
   font-style: italic;
   margin-top: 16px;
+}
+
+/* ── Direttivo ── */
+
+.direttivo {
+  margin-top: 28px;
+}
+
+.direttivo-photo {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.direttivo-caption {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.direttivo-caption a {
+  color: var(--color-mid);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.direttivo-caption a:hover {
+  text-decoration: underline;
 }
 
 /* ── Link list ── */
